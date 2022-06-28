@@ -1,36 +1,34 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: "Audiowide", sans-serif;
 }
 
-body {
+body{
     font-size: 1em;
 }
 
-h1 {
+h1{
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 20px;
 }
 
-h2 {
+h2{
     font-size: 1em;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-h3 {
+h3{
     font-size: 0.8em;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-
-#area-cabecalho {
-    grid-area: area-cabecalho;
+#area-cabecalho{
     background-color: #00008b;
     top: 0;
     left: 0;
@@ -40,20 +38,19 @@ h3 {
     padding-bottom: 15px;
 }
 
-#area-menu a:link,
-#area-menu a:visited {
+#area-menu a:link, #area-menu a:visited{
     color: #FFF;
     font-weight: bold;
     font-size: 0.9em;
 }
 
-#area-menu a:hover {
+#area-menu a:hover{
     color: #f7b600;
     background-color: #FFF;
     border-radius: 3px;
 }
 
-#area-menu ul {
+#area-menu ul{
     display: flex;
     justify-content: center;
     width: auto;
@@ -64,33 +61,30 @@ ul li {
     list-style-type: none;
 }
 
-#area-logo,
-#area-menu {
+#area-logo, #area-menu{
     padding: 10px;
 }
 
-a {
+a{
     padding: 3px 12px;
     text-decoration: none;
     color: white;
 }
 
 
-#area-logo {
+#area-logo{
     text-align: center;
 }
 
-.amarelo {
+.amarelo{
     color: rgb(183, 183, 4);
 }
 
-.branco {
+.branco{
     color: #FFF;
 }
 
-#footer {
-    grid-area: footer;
-    display: flexbox;
+#footer{
     background-color: #00008b;
     bottom: 0;
     width: 100%;
@@ -98,13 +92,13 @@ a {
     padding-bottom: 15px;
 }
 
-#footer a:hover {
+#footer a:hover{
     color: #f7b600;
     background-color: #FFF;
     border-radius: 3px;
 }
 
-.conteudo-footer {
+.conteudo-footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -112,54 +106,53 @@ a {
     flex-wrap: wrap;
 }
 
-.estamos-localizados {
+.estamos-localizados{
     color: white;
     margin-top: 20px;
 }
 
-.contatos {
+.contatos{
     color: white;
     width: auto;
     margin-top: 20px;
 }
 
-.redes-sociais {
+.redes-sociais{
     display: flex;
     justify-content: space-around;
     width: auto;
     margin-top: 20px;
 }
 
-.links-rapidos {
+.links-rapidos{
     color: white;
     width: auto;
     margin-top: 20px;
 }
 
-.icone-rede-social {
-    width: 2em;
+.icone-rede-social{
+    width: 5em;
 }
 
-.hardware {
+.hardware{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.card-hardware {
+.card-hardware{
     width: 20rem;
     height: 20rem;
     border-radius: 10%;
     overflow: hidden;
     margin-bottom: 10px;
 }
-
-.placa {
+.placa{
     opacity: 0.7;
 }
 
-#formMensagem {
+#formMensagem{
     margin: 50px;
     padding: 20px;
     border: 5px solid rgb(183, 183, 4);
@@ -170,25 +163,24 @@ a {
     font-size: 0.8em;
 }
 
-.form-style {
+.form-style{
     display: flex;
     flex-direction: column;
     font-size: 1em;
     width: 90%;
 }
 
-.centro-faleconosco {
+.centro-faleconosco{
     display: flex;
     justify-content: center;
 }
 
-.centro-home {
-    grid-area: centro-home;
+.centro-home{
     margin-top: 20px;
     padding: 20px;
 }
 
-.centro-servicos {
+.centro-servicos{
     margin-top: 20px;
     padding: 20px;
     display: flex;
@@ -196,52 +188,79 @@ a {
     align-items: center;
 }
 
-.centro-contato {
+.centro-contato{
+    margin-top: 20px;
+    padding: 50px;
+    margin-bottom: 20px;
+    height: 500px;
+}
+
+.centro-sobre{
     margin-top: 20px;
     padding: 50px;
     margin-bottom: 20px;
 }
 
-.centro-sobre {
-    margin-top: 20px;
-    padding: 50px;
-    margin-bottom: 20px;
-}
-
-.rede-social {
+.rede-social{
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 1em;
+    padding: 10px;
+    background-color: rgba(233, 173, 248, 0.266);
+    margin: 10px;
+    border-radius: 10px;
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
 }
 
 
-.link-rede-social {
+.link-rede-social{
     color: #00008b;
     text-decoration: underline;
 }
 
-#servicos ul li {
+.item-servico{
+    margin: 10px;
+    background-color: rgba(233, 173, 248, 0.266);
+    border-radius: 10px;
+}
+
+#servico{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    column-gap: 10px;
+}
+
+#servico ul{
+    padding: 25px;
+}
+
+#servico ul li{
     list-style-type: circle;
 }
 
-.imagens-hardware {
+.imagens-hardware{
     width: 50em;
 }
 
-.label-form {
+.label-form{
     text-align: start;
-    margin-bottom: 3px;
+    margin-bottom: 3px ;
     margin-top: 3px;
 }
 
-.input-form {
+.input-form{
     background-color: white;
     border-radius: 3px;
     border-color: black;
     block-size: auto;
 }
 
-.consertos-hardware {
+.consertos-hardware{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -249,7 +268,7 @@ a {
     padding: 15px;
 }
 
-#imagem-hardware {
+#imagem-hardware{
     background-image: url('/img/placa2.jpg');
     background-size: cover;
     height: 200px;
@@ -258,7 +277,7 @@ a {
     width: 300px;
 }
 
-#imagem2-hardware {
+#imagem2-hardware{
     background-image: url("/img/notebook.jpg");
     background-size: cover;
     height: 200px;
@@ -267,43 +286,24 @@ a {
     width: 300px;
 }
 
-.consertos-hardware ul li {
+.consertos-hardware ul li{
     color: black;
-    list-style-type: disc;
+    list-style-type:disc;
 }
 
-.grid {
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px 200px 100px;
-    grid-template-areas:
-        "area-cabecalho , area-cabecalho ,"
-        "centro-home, centro-home "
-        "footer , footer ";
+#grid-redes-sociais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 50px; */
 }
 
-#area-cabecalho {
-    grid-area: area-cabecalho;}
-
-footer{
-    grid-area: footer;
+#imagem-hardware:hover{
+    width: 350px;
+    height: 300px;
+}
+#imagem2-hardware:hover{
+    width: 350px;
+    height: 300px;
 }
 
-@media only screen and (min-width: 768px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: "area-cabecalho , area-cabecalho ,area-cabecalho"
-        "centro-home, centro-home , centro-home"
-        "footer , footer ,footer";
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .grid {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 200px 600px 200px;
-        grid-template-areas: "area-cabecalho , area-cabecalho ,area-cabecalho, area-cabecalho"
-        "centro-home, centro-home , centro-home ,centro-home"
-        ".,footer. , .";
-    }
-}
+    
