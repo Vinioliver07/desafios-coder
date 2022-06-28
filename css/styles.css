@@ -295,5 +295,15 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* column-gap: 50px; */
-
 }
+
+#imagem-hardware:hover{
+    width: 350px;
+    height: 300px;
+}
+#imagem2-hardware:hover{
+    width: 350px;
+    height: 300px;
+}
+
+    
